@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+form {ñ
+    height: 360px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #bd09b7, #6b4cf5);
+}
+
+h2 {
+    margin-top: -8px;
+}
+
+label {
+    margin-left: 5px;
+}
+
+input {
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    padding: 7px;
+    width: 100%;
+}
+
+select {
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+button {
+    position: relative;
+    bottom: 5px;
+    left: 155px;
+    border: none;
+    padding: 12px;
+    min-width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+input[type="checkbox"] {
+    margin-top: 15px;
+    margin-left: -120px;
+    margin-right: -120px;
+}
