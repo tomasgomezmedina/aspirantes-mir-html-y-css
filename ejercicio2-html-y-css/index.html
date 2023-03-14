@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,37 @@
     <title>Login</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <form action="#">
-        <h2>Login</h2>
+    <div class="box">
+        <form>
+            <h2>Login</h2>
 
-        <label for="email">Email</label>
-        <input type="text" name="email" placeholder="Email" required>
+            <div class="input-box">
+                <span>Email</span>
+                <input type="text" required>
+            </div>
 
-        <label for="password">Password</label>
-        <input type="password" name="password" placeholder="Password" required>
+            <div class="input-box">
+                <span>Password</span>
+                <input type="password" required>
+            </div>
 
-        <label for="genero">Género</label>
-        <select name="genero" id="genero">
-            <option value="0">Genero</option>
-            <option value="hombre">Hombre</option>
-            <option value="mujer">Mujer</option>
-        </select>
- 
+            <div class="options">
+                <span>Genero</span>
+                <select>
+                    <option value="0">Genero</option>
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                </select>
+            </div>
+
             <input type="checkbox">
             Acepto los términos
 
-        <button>
-            Ingresar
-        </button>
-    </form>
+            <input id="boton" type="submit" value="Ingresar">
+        </form>
+    </div>
 </body>
+
 </html>
